@@ -11,8 +11,11 @@
 <body>
     <header class="site-header">
         <div class="logo">
-            <h1>Mantenimiento Residencial</h1>
-            <p>Cuidado integral para tu hogar</p>
+            <img src="imgs/logo.jpg" alt="Logo Mantenimiento Residencial">
+            <div class="logo-texto">
+                <h1>Mantenimiento Residencial</h1>
+                <p>Cuidado integral para tu hogar</p>
+            </div>
         </div>
 
         <!-- Cuadro con nombres del equipo -->
@@ -26,6 +29,7 @@
         </aside>
     </header>
 
+
     <nav class="menu">
         <ul>
             <li><a href="index.php">Inicio</a></li>
@@ -35,7 +39,7 @@
             <li><a href="solicitud.php">Solicitar servicio</a></li>
             <li><a href="reporte.php">Reporte de solicitudes</a></li>
             <li><a href="galeria.php">Galería</a></li>
-            <li><a href="nosotros.php">Nosotros</a></li>
+            <li><a href="nosotros.php">Equipo</a></li>
         </ul>
     </nav>
 

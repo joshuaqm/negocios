@@ -102,24 +102,27 @@ main {
 
 /* Espaciado para secciones */
 section {
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     box-sizing: border-box;
     scroll-margin-top: 80px;
 }
 
 /* Altura mínima para secciones principales */
-.hero,
 .servicios,
 .nosotros,
 .testimonios,
 .multimedia {
-    min-height: 80vh;
+    min-height: 50vh;
+}
+
+.hero {
+    min-height: auto;
 }
 
 /* Sección hero */
 .hero {
     background-color: #fff;
-    padding: 3rem 2rem;
+    padding: 2rem;
     border-radius: 8px;
     margin-bottom: 2rem;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -793,4 +796,26 @@ section {
     .stat-num {
         font-size: 2rem;
     }
+}
+/* Contenedor del logo (imagen + texto) */
+.site-header .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem; /* espacio entre el logo y el texto */
+}
+
+/* Imagen del logo */
+.site-header .logo img {
+    height: 65px;      /* ajusta tamaño del logo */
+    width: auto;
+    border-radius: 8px; /* opcional, por si quieres esquinas redondeadas */
+}
+
+/* Agrupamos el texto del logo para poder ajustarlo después si quieres */
+.site-header .logo-texto h1 {
+    margin-bottom: 0.2rem;
+}
+
+.site-header .logo-texto p {
+    font-size: 0.9rem;
 }

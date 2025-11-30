@@ -51,7 +51,7 @@
         <div class="servicios-grid">
             <!-- Integrante 1 -->
             <article class="servicio-card">
-                <img src="img/Chilpa.jpeg" alt="Integrante 1">
+                <img src="imgs/Chilpa.jpeg" alt="Integrante 1">
                 <h3>Alan Chilpa</h3>
                 <p>
                     Responsable de la revisión y mantenimiento de las instalaciones eléctricas de las viviendas, luminarias interiores y exteriores, contactos, apagadores y tableros. También apoya en la instalación de equipos de seguridad como cámaras, sensores y portones eléctricos. Su prioridad es garantizar que todas las instalaciones cumplan con las normas, reduzcan riesgos de fallas y brinden tranquilidad a las familias que habitan los espacios.
@@ -60,7 +60,7 @@
 
             <!-- Integrante 2 -->
             <article class="servicio-card">
-                <img src="Img/David.jpeg" alt="Integrante 2">
+                <img src="Imgs/David.jpeg" alt="Integrante 2">
                 <h3>David Muñoz</h3>
                 <p>
                     Técnico en mantenimiento residencial con experiencia en reparación y conservación de casas y departamentos. Se encarga de realizar inspecciones preventivas, arreglar filtraciones, humedades, puertas, ventanas y acabados, así como dar seguimiento a reportes de los residentes. Destaca por su capacidad para diagnosticar problemas rápidamente y proponer soluciones prácticas, cuidando siempre la seguridad, la limpieza y el buen estado de las instalaciones.
@@ -69,7 +69,7 @@
 
             <!-- Integrante 3 -->
             <article class="servicio-card">
-                <img src="Img/Yoshi.jpeg" alt="Integrante 3">
+                <img src="Imgs/Yoshi.jpeg" alt="Integrante 3">
                 <h3>Joshua Quintero</h3>
                 <p>
                     Encargado de coordinar las órdenes de trabajo, calendarizar mantenimientos preventivos y dar seguimiento a las solicitudes de los residentes. Administra los reportes que llegan por la plataforma, asigna tareas al equipo técnico y verifica que los servicios se concluyan en tiempo y forma. Se caracteriza por su trato amable, comunicación clara y enfoque en ofrecer una atención rápida y organizada para mejorar la experiencia de quienes viven en el conjunto residencial.

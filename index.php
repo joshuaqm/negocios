@@ -13,14 +13,13 @@
             <p>Cuidado integral para tu hogar</p>
         </div>
 
-        <!-- Cuadro con nombres del equipo (requerido por el profe) -->
+        <!-- Cuadro con nombres del equipo -->
         <aside class="equipo">
-            <h2>Equipo Equipo 5</h2>
+            <h2>Equipo 5</h2>
             <ul>
-                <li>Chilpa Navarro Alan Salvador</li>
-                <li>Muñoz Norberto David Julián</li>
+                <li>Chilpa Navarro Alan Salvador</li> 
+                <li>Muñoz Norberto David Julian</li>
                 <li>Quintero Montero Francisco Joshua</li>
-                <!-- Agrega o quita según tu equipo -->
             </ul>
         </aside>
     </header>
@@ -33,7 +32,6 @@
             <li><a href="reporte.php">Reporte de solicitudes</a></li>
             <li><a href="galeria.php">Galería</a></li>
             <li><a href="nosotros.php">Nosotros</a></li>
-
         </ul>
     </nav>
 
@@ -92,4 +90,4 @@
         </p>
     </footer>
 </body>
-</html>}
+</html>

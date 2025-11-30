@@ -22,8 +22,11 @@ $resultado = mysqli_query($conexion, $sql);
     <nav class="menu">
         <ul>
             <li><a href="index.php">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
             <li><a href="solicitud.php">Solicitar servicio</a></li>
             <li><a href="reporte.php">Reporte de solicitudes</a></li>
+            <li><a href="galeria.php">Galería</a></li>
+            <li><a href="nosotros.php">Nosotros</a></li>
         </ul>
     </nav>
 

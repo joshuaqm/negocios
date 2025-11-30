@@ -112,7 +112,7 @@ section {
 .nosotros,
 .testimonios,
 .multimedia {
-    min-height: 80vh;
+    min-height: 50vh;
 }
 
 .hero {

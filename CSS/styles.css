@@ -112,7 +112,7 @@ section {
 .nosotros,
 .testimonios,
 .multimedia {
-    min-height: 50vh;
+    min-height: 80vh;
 }
 
 .hero {
@@ -178,6 +178,7 @@ section {
 /* Servicios */
 .servicios {
     background-color: transparent;
+    padding-top: 2rem;
 }
 
 .servicios h2 {
@@ -444,7 +445,8 @@ section {
 
 /* Galería de estadísticas */
 .stats-galeria {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -806,7 +808,7 @@ section {
 
 /* Imagen del logo */
 .site-header .logo img {
-    height: 65px;      /* ajusta tamaño del logo */
+    height: 60px;      /* ajusta tamaño del logo */
     width: auto;
     border-radius: 8px; /* opcional, por si quieres esquinas redondeadas */
 }

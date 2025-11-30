@@ -212,7 +212,7 @@
         <section class="multimedia">
             <h2>Conoce nuestro trabajo</h2>
             <p class="multimedia-intro">
-                En este video podrás conocer algunos de nuestros proyectos más destacados y ver
+                En este video podrás conocer algunos de nuestros proyectos y ver
                 la calidad de nuestro trabajo. Nuestro compromiso es superar tus expectativas en
                 cada servicio que realizamos.
             </p>

@@ -12,21 +12,25 @@
 </head>
 <body>
 
-<header class="site-header">
-    <div class="logo">
-        <h1>Mi Sitio de Servicios</h1>
-        <p>Gestión de solicitudes y reportes</p>
-    </div>
-    <div class="equipo">
-        <h2>Equipo 5</h2>
+    <header class="site-header">
+        <div class="logo">
+            <img src="imgs/logo.jpg" alt="Logo Mantenimiento Residencial">
+            <div class="logo-texto">
+                <h1>Mantenimiento Residencial</h1>
+                <p>Cuidado integral para tu hogar</p>
+            </div>
+        </div>
+
+        <!-- Cuadro con nombres del equipo -->
+        <aside class="equipo">
+            <h2>Equipo 5</h2>
             <ul>
                 <li>Chilpa Navarro Alan Salvador</li>
-                <li>Muñoz Norberto David Julián</li>
+                <li>Muñoz Norberto David Julian</li>
                 <li>Quintero Montero Francisco Joshua</li>
-                <!-- Agrega o quita según tu equipo -->
             </ul>
-    </div>
-</header>
+        </aside>
+    </header>
 
 <nav class="menu">
         <ul>
@@ -48,9 +52,6 @@
         </p>
 
     </section>
-
-
-
 
     <section class="servicios">
         <h2>Trabajos realizados</h2>

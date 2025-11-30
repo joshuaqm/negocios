@@ -8,7 +8,23 @@
 </head>
 <body>
     <header class="site-header">
-        <h1>Solicitar servicio de mantenimiento</h1>
+        <div class="logo">
+            <img src="imgs/logo.jpg" alt="Logo Mantenimiento Residencial">
+            <div class="logo-texto">
+                <h1>Mantenimiento Residencial</h1>
+                <p>Cuidado integral para tu hogar</p>
+            </div>
+        </div>
+
+        <!-- Cuadro con nombres del equipo -->
+        <aside class="equipo">
+            <h2>Equipo 5</h2>
+            <ul>
+                <li>Chilpa Navarro Alan Salvador</li>
+                <li>Muñoz Norberto David Julian</li>
+                <li>Quintero Montero Francisco Joshua</li>
+            </ul>
+        </aside>
     </header>
 
     <nav class="menu">
@@ -23,7 +39,7 @@
 
     <main>
         <section class="form-section">
-            <h2>Captura tus datos</h2>
+            <h2>Realiza tu solicitud</h2>
             <form action="solicitudServer.php" method="post">
                 <fieldset>
                     <legend>Datos del cliente</legend>

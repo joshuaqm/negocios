@@ -1,4 +1,4 @@
-CREATE DATABASE EqNMantenimiento CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE Eq5Mantenimiento CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 USE EqNMantenimiento;
 

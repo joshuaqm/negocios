@@ -821,3 +821,200 @@ section {
 .site-header .logo-texto p {
     font-size: 0.9rem;
 }
+
+/* Página de confirmación de solicitud */
+.confirmacion-solicitud {
+    max-width: 700px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 4px solid #28a745;
+}
+
+.confirmacion-solicitud h1 {
+    color: #005b96;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.confirmacion-solicitud h1::before {
+    content: "✓";
+    background-color: #28a745;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    animation: checkmark 0.6s ease;
+}
+
+@keyframes checkmark {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.confirmacion-solicitud p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.confirmacion-solicitud strong {
+    color: #005b96;
+    font-weight: bold;
+}
+
+.confirmacion-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.confirmacion-links a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    text-align: center;
+}
+
+.confirmacion-links a:first-child {
+    background-color: #005b96;
+    color: #fff;
+    border: 2px solid #005b96;
+}
+
+.confirmacion-links a:first-child:hover {
+    background-color: #03396c;
+    border-color: #03396c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,91,150,0.3);
+}
+
+.confirmacion-links a:last-child {
+    background-color: transparent;
+    color: #005b96;
+    border: 2px solid #005b96;
+}
+
+.confirmacion-links a:last-child:hover {
+    background-color: #005b96;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,91,150,0.3);
+}
+
+/* Página de error */
+.error-solicitud {
+    max-width: 700px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 4px solid #dc3545;
+}
+
+.error-solicitud h1 {
+    color: #dc3545;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.error-solicitud h1::before {
+    content: "⚠";
+    background-color: #dc3545;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.error-solicitud p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.error-solicitud a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #005b96;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: 2px solid #005b96;
+}
+
+.error-solicitud a:hover {
+    background-color: #03396c;
+    border-color: #03396c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,91,150,0.3);
+}
+
+/* Responsive para confirmación */
+@media (max-width: 768px) {
+    .confirmacion-solicitud,
+    .error-solicitud {
+        margin: 1rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .confirmacion-solicitud h1,
+    .error-solicitud h1 {
+        font-size: 1.8rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .confirmacion-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .confirmacion-links a {
+        width: 100%;
+        max-width: 250px;
+    }
+}

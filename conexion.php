@@ -5,7 +5,7 @@
 $host = "localhost";
 $usuario = "root";          // cámbialo si usas otro usuario
 $password = "";             // pon el password que usaste en AppServ
-$baseDatos = "EqNMantenimiento"; // cambia al nombre real de tu BD
+$baseDatos = "Eq5Mantenimiento"; // cambia al nombre real de tu BD
 
 $conexion = mysqli_connect($host, $usuario, $password, $baseDatos);
 

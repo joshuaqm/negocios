@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
     <title>Mantenimiento Residencial - Inicio</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/app.js" defer></script>

@@ -85,6 +85,7 @@ $ejecutado = mysqli_stmt_execute($stmt);
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $ejecutado ? 'Solicitud Registrada' : 'Error en Solicitud'; ?> - Servicios Profesionales</title>
     <link rel="stylesheet" href="CSS/styles.css">

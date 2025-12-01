@@ -11,6 +11,7 @@ $resultado = mysqli_query($conexion, $sql);
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
     <title>Reporte de solicitudes - Mantenimiento Residencial</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>

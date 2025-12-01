@@ -6,6 +6,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
     <title>Mantenimiento Residencial - Inicio</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="JS/app.js" defer></script>
